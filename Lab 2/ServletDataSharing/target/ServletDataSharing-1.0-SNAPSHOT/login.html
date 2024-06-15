@@ -1,0 +1,30 @@
+
+<html>
+    <head>
+        <title>Login Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <style>
+            body {
+                background-color: black;
+                text-align: left;
+                color: white;
+                font-family:Arial, Helvetica, sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Welcome to CSM3023</h1>
+        <p>Please insert your username and password</p>
+        <form name="login" id="login" action="LoginServlet" method="POST" autocomplete="off">
+            Username:<input name="txtUsername" type="text"> <br>
+            Password:<input name="txtPassword" type="text"><br>
+            <br>
+            <input name="btnLogin" value="Login" type="submit">
+            <input name="txtReset" value="Reset" type="reset"><br>
+        </form>
+        <p><br>
+        </p>
+    </body>
+</html>

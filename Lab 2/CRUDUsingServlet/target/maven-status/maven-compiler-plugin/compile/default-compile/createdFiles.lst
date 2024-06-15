@@ -1,0 +1,9 @@
+com\mycompany\lab2\resources\JakartaEE10Resource.class
+EditServlet.class
+UserDao.class
+ViewServlet.class
+com\mycompany\lab2\JakartaRestConfiguration.class
+DeleteServlet.class
+User.class
+SaveServlet.class
+EditServlet2.class
